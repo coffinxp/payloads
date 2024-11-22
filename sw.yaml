@@ -4,7 +4,7 @@ info:
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
   version: production
-basePath: /JSSResource/
+basePath: /configUrl/
 produces:
   - application/xml
   - application/json
@@ -14,7 +14,7 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /M0X0101:
+  /configUrl:
     get:
       responses:
         '200':
